@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: none;
+}
+#map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+svg {
+  display: block;
+}
